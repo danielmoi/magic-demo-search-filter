@@ -1,0 +1,15 @@
+# dev
+node_modules
+
+# git
+.git
+
+# logs
+*.log
+
+# build
+public/js*
+public/css*
+
+# config
+.env
