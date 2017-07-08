@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <div className="header__wrapper">
-    Header
+    <div className="header__title">React Redux Blueprint</div>
   </div>
 );
 
