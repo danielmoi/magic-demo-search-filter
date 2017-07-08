@@ -4,7 +4,7 @@
   }
 
   &__wrapper {
-    max-width: 50%;
+    width: 50vw;
   }
 
   &__search {
@@ -84,13 +84,8 @@
     &-search {
       background-color: $gray-light;
       font-size: 0.9rem;
-      padding: 0.33rem 0.67rem;
-      border-radius: 5px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
+      padding: 0.33rem 0 0.33rem 0.33rem;
       cursor: pointer;
-
-
     }
 
     &-delete {
@@ -99,6 +94,8 @@
       border-radius: 5px;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
+      padding-right: 0.33rem;
+      margin-right: 0.33rem;
 
       &::after {
         content: "×";
