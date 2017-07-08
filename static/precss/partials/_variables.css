@@ -1,3 +1,4 @@
+/* COLORS */
 $primary: hotpink;
 
 $gray: #ccc;
@@ -5,9 +6,32 @@ $gray: #ccc;
 $header: antiquewhite;
 $footer: #eee;
 
+
 $text: #444;
 $text-code: #444;
 
 $background-code: #ddd;
 
 $font-weight-medium: 500;
+$weight-medium: 500;
+
+
+$orange: rgb(255, 85, 0);               /* FF5500 */
+$red: rgb(255, 117, 117);               /* FF7575 */
+$green: rgb(125, 257, 145);             /* 7DE391 */
+
+$white-dark: #f0f2f3;
+$white: #ffffff;
+$white-fade: rgba(180,180,180,0.3);
+
+$gray-ultralight: rgb(240, 242, 243);   /* #f0f2f3 */
+$gray-light: rgb(229, 229, 229);        /* #e5e5e5 */
+$gray-regular: rgb(185, 185, 185);      /* #b9b9b9 */
+$gray: rgb(145, 145, 145);              /* #919191 */
+$gray-medium: rgb(60, 59, 63);          /* #3c3b3f */
+$gray-dark: rgb(51, 51, 51);            /* #333333 */
+$gray-darker: rgb(26, 26, 27);          /* #1a1a1b */
+$gray-silver-light: rgb(214, 217, 231); /* #d6d9e7 */
+$gray-silver: rgb(206, 217, 220);       /* #ced9dc */
+$gray-charcoal: rgb(62, 65, 73);        /* #3e4149 */
+$gray-hover: rgb(247, 247, 247); /* also #f7f7f7 as opaque */

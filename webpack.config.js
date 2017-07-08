@@ -57,6 +57,16 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('css/style.css'),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('development'),
+    }),
   ],
+  devServer: {
+    port: 1234,
+    historyApiFallback: true,
+    headers: { 'Access-Control-Allow-Origin': '*' },
+    quiet: true,
+  },
   devtool: 'source-map',
 };
