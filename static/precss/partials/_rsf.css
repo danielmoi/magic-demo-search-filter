@@ -12,8 +12,6 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      overflow-x: scroll;
-      overflow-y: hidden;
       height: 2.5rem;
       min-width: 20rem;
       border: 1px solid $gray-regular;
@@ -24,6 +22,10 @@
       border: none;
       color: $gray;
       outline: none;
+
+      &--hidden {
+        display: none;
+      }
     }
   }
 
@@ -33,6 +35,9 @@
       margin-top: 0.5rem;
       display: inline-block;
       min-width: 10rem;
+      position: absolute;
+      top: 2.4rem;
+      left: 0;
     }
 
     &-item {
@@ -62,6 +67,14 @@
   }
 
   &__combination {
+    &-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+      white-space: nowrap;
+      cursor: pointer;
+    }
     &-item {
       display: inline-flex;
       white-space: nowrap;
@@ -72,6 +85,7 @@
       background-color: $gray-light;
       font-size: 0.9rem;
       padding: 0.33rem 0.67rem;
+      height: 2rem;
       padding-right: 0;
       border-radius: 5px;
       border-top-right-radius: 0;
@@ -86,6 +100,9 @@
       font-size: 0.9rem;
       padding: 0.33rem 0 0.33rem 0.33rem;
       cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      height: 2rem;
     }
 
     &-delete {
@@ -96,6 +113,7 @@
       border-bottom-left-radius: 0;
       padding-right: 0.33rem;
       margin-right: 0.33rem;
+      height: 2rem;
 
       &::after {
         content: "×";
